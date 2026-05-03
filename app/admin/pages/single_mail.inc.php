@@ -23,7 +23,7 @@
 					</div>
 					<!-- Footer -->
 					<div style="background: #1f332b; color: #ffffff; padding: 20px; font-size: 12px; text-align: center;">
-						<p>Need help? Contact us at <a href="mailto:info@gulfofmexicooilplatform.com" style="color: #ffffff; text-decoration: underline;">info@gulfofmexicooilplatform.com</a><br>Available 24/7</p>
+						<p>Need help? Contact us at <a href="mailto:test@email.com" style="color: #ffffff; text-decoration: underline;">test@email.com</a><br>Available 24/7</p>
 						<p><a href="#" style="color: #ffffff; text-decoration: underline;">Terms of Use</a> | <a href="#" style="color: #ffffff; text-decoration: underline;">Privacy Policy</a></p>
 					</div>
 				</div>
@@ -42,11 +42,11 @@
 		$mail->Port=587;
 		$mail->SMTPAuth=true;
 		$mail->SMTPSecure='tls';
-		$mail->Username='info@gulfofmexicooilplatform.com';
-		$mail->Password='25!vBtH96"r@>#s';
-		$mail->setFrom('info@gulfofmexicooilplatform.com', 'Gulf Of Mexico Oil Platform');
+		$mail->Username='test@email.com';
+		$mail->Password='password';
+		$mail->setFrom('test@email.com', 'Gulf Of Mexico Oil Platform');
 		$mail->addAddress($email);
-		$mail->addReplyTo('info@gulfofmexicooilplatform.com', 'Gulf Of Mexico Oil Platform');
+		$mail->addReplyTo('test@email.com', 'Gulf Of Mexico Oil Platform');
 		
 		$mail->isHTML(true); // Enable HTML
         $mail->Encoding = 'quoted-printable';
